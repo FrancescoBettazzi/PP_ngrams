@@ -15,5 +15,3 @@ add_executable(ngrams main.cpp)
 
 # Link alle librerie di Python
 target_link_libraries(ngrams ${Python3_LIBRARIES} ${Python3_NumPy_LIBRARIES})
-
-# COMMENTO DI PROVA
